@@ -1,0 +1,134 @@
+.footer__wrapper {
+	// max-height: 40vh !important;
+	background: $bg-secondary;
+	.footer__top {
+		align-items: flex-start;
+	}
+	.footer__copyright {
+		padding: 3rem;
+		padding-bottom: 0px;
+		.footer__social {
+			justify-self: flex-end;
+		}
+	}
+	.footer__logo {
+		img {
+			width: calc(100% - 80%);
+			margin-bottom: 5px;
+		}
+		h5 {
+			font-size: 1rem;
+			margin-bottom: 15px;
+		}
+		p {
+			font-size: 0.9rem;
+			color: $color-primary;
+			line-height: $line-height-2;
+		}
+	}
+
+	.delivery__time-item {
+		// background: transparent !important;
+
+		span {
+			font-weight: $fw-regular;
+			font-size: 1rem;
+			color: $color-primary;
+			@media only screen and (max-width: 768px) {
+				font-size: 0.8rem;
+			}
+		}
+		p {
+			color: $color-primary;
+			@media only screen and (max-width: 768px) {
+				font-size: 0.7rem;
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.footer__title {
+		font-size: 1.1rem;
+		color: $color-primary;
+		font-weight: 600;
+		@media only screen and (max-width: 768px) {
+			font-size: 0.8rem;
+		}
+	}
+
+	.newsletter {
+		padding: 5px;
+		border: 1px solid $color-primary;
+		border-radius: 5px;
+		// display: flex;
+		// justify-content: space-between;
+		// align-items: center;
+		cursor: pointer;
+
+		input {
+			background: transparent;
+			border: none;
+			outline: none;
+
+			@media screen and (max-width: 992px) {
+				padding: 7px;
+				font-size: 0.7rem;
+			}
+
+			&::placeholder {
+				color: $color-primary;
+			}
+			&:focus {
+				outline: none;
+			}
+			span {
+				background: $color-secondary;
+				padding: 5px 30px;
+				border-radius: 5px;
+				@media only screen and (max-width: $bp-3) {
+					padding: 4px 20px;
+					font-size: 0.7rem;
+				}
+				i {
+					color: $color-quaternary;
+				}
+			}
+		}
+	}
+
+	.social__links {
+		align-items: center;
+		gap: 1.5rem;
+
+		span {
+			@media only screen and (max-width: $bp-5) {
+				padding: 4px;
+			}
+			a {
+				@media only screen and (max-width: $bp-5) {
+					font-size: 0.7rem;
+				}
+			}
+			i {
+				padding: 5px;
+				background: $color-secondary;
+				color: $color-quaternary;
+				border-radius: $br-circle;
+			}
+		}
+		p {
+			@media only screen and (max-width: $bp-5) {
+				font-size: 0.8rem;
+				margin-bottom: 0px;
+			}
+		}
+	}
+
+	.copyright__text {
+		font-size: 0.8rem;
+		color: $color-secondary;
+		@media screen and (max-width: $bp-5) {
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,38 @@
+%heading {
+	font-family: $ff-primary;
+}
+%paragraph {
+	font-weight: 300;
+}
+.lead__1 {
+	font-size: 1.5rem;
+	@extend %paragraph;
+}
+.lead__2 {
+	font-size: 1.35rem;
+	@extend %paragraph;
+}
+.lead__3 {
+	font-size: 1.25rem;
+	@extend %paragraph;
+}
+.lead__4 {
+	font-size: 1.1rem;
+	@extend %paragraph;
+}
+.des__1 {
+	font-size: calc(17px + 0.35vw);
+	@extend %paragraph;
+}
+.des__2 {
+	font-size: calc(16px + 0.3vw);
+	@extend %paragraph;
+}
+.des__3 {
+	font-size: calc(15px + 0.3vw);
+	@extend %paragraph;
+}
+.des__4 {
+	font-size: calc(14px + 0.25vw);
+	@extend %paragraph;
+}
