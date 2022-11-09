@@ -37,7 +37,9 @@ const Header = () => {
 				<div className="flex__center-s-b ">
 					<div className="logo flex__start col__2 ">
 						<div>
-							<img src={logo} alt="logo" />
+							<Link to="/">
+								<img src={logo} alt="logo" />
+							</Link>
 						</div>
 					</div>
 
@@ -48,7 +50,9 @@ const Header = () => {
 						}`}
 						onClick={() => setIsMobileMenuOpen()}
 					>
-						<div className="menu flex__center-s-e grow flex__column-bp-3">
+						<div
+							className={`menu flex__center-s-e grow flex__column-bp-3 `}
+						>
 							{nav__links.map((item, index) => (
 								<NavLink
 									to={item.path}
@@ -64,7 +68,7 @@ const Header = () => {
 					</div>
 
 					{/* ======== nav right icons ========= */}
-					<div className="nav__right flex__center-s-e col__2 col__bp-3-8">
+					<div className="nav__right flex__center-s-e col__2 col__bp-3-8 gap__1">
 						{/* onClick={toggleCart} */}
 						<span className="cart__icon flex__center ">
 							<i className="ri-shopping-basket-line"></i>

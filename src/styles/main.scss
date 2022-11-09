@@ -17,7 +17,7 @@
 // @import "components/social";
 
 // LAYOUTS COMPONENTS
-@import "./components/layout/header";
+@import "../components/Layout/Header/header";
 // @import "./components/layout/about";
 // @import "./components/layout/features";
 @import "../components/Layout/Footer/footer";
@@ -28,4 +28,9 @@
 
 // ===== UI COMPONENTS ======
 @import "../components/UI/section/section";
-@import "../components/UI/Heading/all-headings.scss";
+@import "../components/UI/Heading/all-headings";
+@import "../components/UI/Paragraph/paragraph";
+@import "../components/UI/logo/logo";
+
+// ===== PAGES ======
+@import "../components/pages/Home/home";

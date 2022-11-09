@@ -1,0 +1,21 @@
+.home__hero_wrapper {
+	.home__hero-content {
+		.hero__content {
+			.hero__title {
+			}
+			.hero__btns {
+			}
+			.hero__service {
+				i {
+					background: $bg-tertiary;
+					padding: 0.3rem;
+					border-radius: $br-circle;
+					color: $color-quaternary;
+					font-weight: $fw-regular;
+				}
+			}
+		}
+		.hero__img {
+		}
+	}
+}
